@@ -1,0 +1,53 @@
+body {
+	background: oldlace; 
+	font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+	margin: 5% 5%;
+	font-weight: lighter;
+}
+
+#mlrb {
+	width: 90%;
+	margin: 2% auto;
+	position: relative;
+	box-shadow: 3px 3px 2px 1px rgba(0,0,0,.4);
+}
+
+.moodBoardz {
+	/*float: left;*/
+	display: inline-block;
+	width: 45%;
+	margin: 2% 2.5%;
+	position: relative;
+	box-shadow: 3px 3px 2px 1px rgba(0,0,0,.4);
+}
+
+.header {
+	margin-left: 5%;
+	font-weight: bold;
+	/*font-color: rgb(205,92,92);*/
+}
+
+.indent {
+	margin-left: 7%;
+}
+
+div[class="centered"] a {
+	float: center;
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	border: 1px solid black;
+	padding: 20px;
+	margin: 3% 2%;
+	background-color: rgba(205,92,92,.9);
+	box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
+	color: white;
+	font-weight: lighter;
+}
+
+div a:hover {
+	background-color: rgba(205,92,92,.2);
+}
