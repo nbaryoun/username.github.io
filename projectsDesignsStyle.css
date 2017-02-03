@@ -16,8 +16,8 @@ h2 {
 }
 
 .moodBoardz {
-	/*float: left;*/
 	display: inline-block;
+	float: right;
 	width: 45%;
 	margin: 2% 2.5%;
 	position: relative;
@@ -37,7 +37,6 @@ h2 {
 div[class="centered"] a {
 	float: center;
 	display: inline-block;
-	width: 100px;
 	height: 30px;
 	border: 1px solid black;
 	padding: 20px;

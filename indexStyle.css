@@ -1,0 +1,56 @@
+body {
+	background: oldlace;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+#logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+}
+
+.centered {
+	text-align: center;
+}
+
+.regFont {
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+div[class="centered"] a {
+	float: center;
+	display: inline-block;
+	height: 100px;
+	border: 1px solid black;
+	padding: 50px;
+	margin: 9% 2%;
+	background-color: rgba(205,92,92,.9);
+	box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
+	color: white;
+	font-weight: lighter;
+}
+
+div a:hover {
+	background-color: rgba(205,92,92,.2);
+}
+
+div[id="special"] a {
+	float: center;
+	display: block;
+	margin: auto;
+	border: 1px solid black;
+	background-color: rgba(205,92,92,.9);
+	box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
+	width: 80%;
+	height: 50px;
+	text-align: center;
+	padding-top: 3%;
+	color: white;
+}
+
+div[id="special"] a:hover {
+	background-color: rgba(205,92,92,.2);
+}

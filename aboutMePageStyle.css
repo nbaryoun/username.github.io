@@ -11,7 +11,6 @@ h2 {
 div[class="centered"] a {
 	float: center;
 	display: inline-block;
-	width: 100px;
 	height: 30px;
 	border: 1px solid black;
 	padding: 20px;
@@ -29,8 +28,8 @@ div a:hover {
 .header {
 	margin-left: 5%;
 	font-weight: bold;
-	color: rgb(205,92,92);
-}
+/*	color: rgb(205,92,92);
+*/}
 
 .indent {
 	margin-left: 7%;
@@ -45,10 +44,18 @@ div a:hover {
 	box-shadow: 3px 3px 2px 1px rgba(205,92,92,.5);
 }
 
+#numba2 {
+	width: 25%;
+	position: absolute;
+	top: 45%;
+	right: 3%;
+	box-shadow: 3px 3px 2px 1px rgba(205,92,92,.5);
+}
+
 #numba3 {
 	width: 25%;
 	position: absolute;
-	top: 40%;
-	right: 3%;
+	top: 70%;
+	right: 7%;
 	box-shadow: 3px 3px 2px 1px rgba(205,92,92,.5);
 }
