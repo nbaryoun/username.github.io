@@ -36,6 +36,10 @@ div a:hover {
 	width: 60%;
 }
 
+#link {
+	color: rgba(205,92,92,.9);
+}
+
 #numba1 {
 	width: 25%;
 	position: absolute;
