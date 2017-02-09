@@ -8,7 +8,8 @@ body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 5%;
+	margin-bottom: 3%;
+	margin-top: 2%;
 }
 
 .centered {
@@ -26,15 +27,19 @@ div[class="centered"] a {
 	height: 100px;
 	border: 1px solid black;
 	padding: 50px;
-	margin: 7% 2%;
+	margin: 3% 2%;
 	background-color: rgba(205,92,92,.9);
 	box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
 	color: white;
 	font-weight: lighter;
+	-webkit-transition: width 1s, height 1s, background-color 1s, -webkit-transform 1s;
+    transition: width 1s, height 1s, background-color 1s, transform 1s;
 }
 
 div a:hover {
 	background-color: rgba(205,92,92,.2);
+	-webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
 }
 
 div[id="special"] a {
@@ -54,3 +59,24 @@ div[id="special"] a {
 div[id="special"] a:hover {
 	background-color: rgba(205,92,92,.2);
 }
+
+#top, #bottom, #left, #right {
+	background: sienna;
+	position: fixed;
+	}
+#left, #right {
+	top: 3%; bottom: 3%;
+	width: 3px;
+}
+#left { left: 20px; }
+#right { right: 20px; }
+		
+#top, #bottom {
+	left: 2%; right: 2%;
+	height: 3px;
+}
+#top { top: 10px; }
+#bottom { bottom: 10px; }
+
+
+
