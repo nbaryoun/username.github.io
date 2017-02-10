@@ -34,7 +34,7 @@ h2 {
 	margin-left: 7%;
 }
 
-div[class="centered"] a {
+/*div[class="centered"] a {
 	float: center;
 	display: inline-block;
 	height: 30px;
@@ -45,8 +45,17 @@ div[class="centered"] a {
 	box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
 	color: white;
 	font-weight: lighter;
+}*/
+
+div[class="menu"] a {
+	border: 1px solid white;
+	padding: 5px;
+	color: rgb(205,92,92);
+	float: right;
+	margin-right: 3%;
 }
 
 div a:hover {
 	background-color: rgba(205,92,92,.2);
+	box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2);
 }

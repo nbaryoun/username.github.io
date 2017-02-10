@@ -8,7 +8,7 @@ h2 {
 	font-weight: lighter;
 }
 
-div[class="centered"] a {
+/*div[class="centered"] a {
 	float: center;
 	display: inline-block;
 	height: 30px;
@@ -20,16 +20,24 @@ div[class="centered"] a {
 	color: white;
 	font-weight: lighter;
 }
-
-div a:hover {
+*/
+div[class="menu"] a:hover {
 	background-color: rgba(205,92,92,.2);
+	box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+div[class="menu"] a {
+	border: 1px solid white;
+	padding: 5px;
+	color: rgb(205,92,92);
+	float: right;
+	margin-right: 3%;
 }
 
 .header {
 	margin-left: 5%;
 	font-weight: bold;
-/*	color: rgb(205,92,92);
-*/}
+}
 
 .indent {
 	margin-left: 7%;

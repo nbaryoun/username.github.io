@@ -60,23 +60,3 @@ div[id="special"] a:hover {
 	background-color: rgba(205,92,92,.2);
 }
 
-#top, #bottom, #left, #right {
-	background: sienna;
-	position: fixed;
-	}
-#left, #right {
-	top: 3%; bottom: 3%;
-	width: 3px;
-}
-#left { left: 20px; }
-#right { right: 20px; }
-		
-#top, #bottom {
-	left: 2%; right: 2%;
-	height: 3px;
-}
-#top { top: 10px; }
-#bottom { bottom: 10px; }
-
-
-
