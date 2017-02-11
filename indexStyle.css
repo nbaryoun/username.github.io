@@ -1,5 +1,7 @@
 body {
-	background: oldlace;
+	background-image: url("meSitting.JPG");
+	background-size: cover;
+	background-repeat: no-repeat;
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -28,7 +30,7 @@ div[class="centered"] a {
 	border: 1px solid black;
 	padding: 50px;
 	margin: 3% 2%;
-	background-color: rgba(205,92,92,.9);
+	background-color: rgba(151,0,24,.2);
 	box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
 	color: white;
 	font-weight: lighter;
@@ -37,7 +39,7 @@ div[class="centered"] a {
 }
 
 div a:hover {
-	background-color: rgba(205,92,92,.2);
+	background-color: rgba(151,0,24,.9);
 	-webkit-transform: rotate(360deg);
     transform: rotate(360deg);
 }
@@ -47,7 +49,7 @@ div[id="special"] a {
 	display: block;
 	margin: auto;
 	border: 1px solid black;
-	background-color: rgba(205,92,92,.9);
+	background-color: rgba(151,0,24,.4);
 	box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
 	width: 80%;
 	height: 50px;
@@ -57,6 +59,6 @@ div[id="special"] a {
 }
 
 div[id="special"] a:hover {
-	background-color: rgba(205,92,92,.2);
+	background-color: rgba(151,0,24,.9);
 }
 

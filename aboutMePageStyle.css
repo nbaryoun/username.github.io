@@ -1,6 +1,8 @@
 body {
-	background: oldlace; 
+	/*background: oldlace; */
+	background-color: rgba(70,130,180,.8);
 	font-family: 'Raleway', sans-serif;
+	color: white;
 }
 
 h2 {
@@ -22,21 +24,23 @@ h2 {
 }
 */
 div[class="menu"] a:hover {
-	background-color: rgba(205,92,92,.2);
-	box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2);
+	background-color: rgba(151,0,24,.9);
 }
 
 div[class="menu"] a {
 	border: 1px solid white;
+	background-color: rgba(151,0,24,.4);
 	padding: 5px;
-	color: rgb(205,92,92);
+	color: black;
 	float: right;
 	margin-right: 3%;
+	box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .header {
 	margin-left: 5%;
 	font-weight: bold;
+	color: rgba(151,0,24,.9);
 }
 
 .indent {
@@ -45,7 +49,7 @@ div[class="menu"] a {
 }
 
 #link {
-	color: rgba(205,92,92,.9);
+	color: rgba(151,0,24,.9);
 }
 
 #numba1 {
@@ -53,7 +57,7 @@ div[class="menu"] a {
 	position: absolute;
 	top: 20%;
 	right: 5%;
-	box-shadow: 3px 3px 2px 1px rgba(205,92,92,.5);
+	box-shadow: 3px 3px 2px 1px rgba(151,0,24,.9);
 }
 
 #numba2 {
@@ -61,7 +65,7 @@ div[class="menu"] a {
 	position: absolute;
 	top: 45%;
 	right: 3%;
-	box-shadow: 3px 3px 2px 1px rgba(205,92,92,.5);
+	box-shadow: 3px 3px 2px 1px rgba(151,0,24,.9);
 }
 
 #numba3 {
@@ -69,5 +73,5 @@ div[class="menu"] a {
 	position: absolute;
 	top: 70%;
 	right: 7%;
-	box-shadow: 3px 3px 2px 1px rgba(205,92,92,.5);
+	box-shadow: 3px 3px 2px 1px rgba(151,0,24,.9);
 }
