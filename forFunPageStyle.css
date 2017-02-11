@@ -1,6 +1,7 @@
 body {
-	background: oldlace; 
+	background-color: rgba(70,130,180,.8);
 	font-family: 'Raleway', sans-serif;
+	color: white;
 }
 
 h2 {
@@ -13,35 +14,28 @@ h2 {
 	font-weight: lighter;
 }
 
-/*div[class="centered"] a {
-	float: center;
-	display: inline-block;
-	height: 30px;
-	border: 1px solid black;
-	padding: 20px;
-	margin: 3% 2%;
-	background-color: rgba(205,92,92,.9);
-	box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
-	color: white;
-	font-weight: lighter;
-}*/
+.color {
+	color: rgb(151,0,24);
+}
 
 div[class="menu"] a {
 	border: 1px solid white;
+	background-color: rgba(151,0,24,.4);
 	padding: 5px;
-	color: rgb(205,92,92);
+	color: black;
 	float: right;
 	margin-right: 3%;
+	box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-div a:hover {
-	background-color: rgba(205,92,92,.2);
-	box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2);
+div[class="menu"] a:hover {
+	background-color: rgba(151,0,24,.9);
 }
 
 img {
 	width: 30%;
 	float: left;
-	margin: 1.66%;
-	box-shadow: 3px 3px 2px 1px rgba(205,92,92,.5);
+	margin-right: 3%;
+	margin-bottom: 2%;
+	box-shadow: 3px 3px 2px 1px rgba(151,0,24,.5);
 }

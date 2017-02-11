@@ -1,5 +1,4 @@
 body {
-	/*background: oldlace; */
 	background-color: rgba(70,130,180,.8);
 	font-family: 'Raleway', sans-serif;
 	color: white;
@@ -10,19 +9,6 @@ h2 {
 	font-weight: lighter;
 }
 
-/*div[class="centered"] a {
-	float: center;
-	display: inline-block;
-	height: 30px;
-	border: 1px solid black;
-	padding: 20px;
-	margin: 3% 2%;
-	background-color: rgba(205,92,92,.9);
-	box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
-	color: white;
-	font-weight: lighter;
-}
-*/
 div[class="menu"] a:hover {
 	background-color: rgba(151,0,24,.9);
 }
