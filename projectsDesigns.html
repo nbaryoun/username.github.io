@@ -22,6 +22,17 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
+
+	<!-- fancybox -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+
+    <script>
+	    $(document).ready(function() {
+	        $('.fancybox').fancybox();
+	    });
+	</script>
 </head>
 <body>
 
@@ -35,30 +46,41 @@
 	<!-- projects on github -->
 	<h2><em>Programmed Projects</em></h2>
 
-	<p class="header"><em>Administrative App</em></p>
-	<div class="indent">
-		<p>Purpose: For the BringMe Delivery team</p>
-		<p>Overview: This app software was made to track all the orders placed by app users; displaying where/when the order was made, when/where they were delivered, etc. It was supposed to be used to expand the company's delivery "bubble" and see where there can be improvement, but the company went in a different direction.</p>
-		<p>This project was very Javascript heavy, with multiple controllers being used. We also programmed the backend using C#, and even did the SQL DB work - but I had less to do with that.</p>
-		<p>This project uses Angular and Ionic frameworks, as well as package managers and organizers such as Bower, Yeoman, and Gulp.</p>
-		<p>Due to company protocol, I couldn't put the exact project online, but I've recreated the functionalities (without user data) and it can be found on my Github account under the "Admin-App" repository.</p>
-	</div>
+	<div id="sup">
+		<a href="#inline1" class="fancybox centered" title="Administrative App">
+				Admin App
+		</a>
 
-	<p class="header"><em>My Portfolio -- this website!</em></p>
-	<div class="indent">
-		<p>Purpose: To display my work</p>
-		<p>Overview: The is just a simple website intended to allow potential employers to understand what kind of work I've already done.</p>
-		<p>This website was made using only sublime. I made it very simple, all using only HTML and CSS. It's the first project I've ever done outside of a typical IDE.<br>I feel that a lot of times developers can get lost in all the new technologies (wireframes, libraries, etc) so I made this website using nothing. That being said, I don't ever want to do it again. GIVE ME BOOTSTRAP BACK.</p>
-		<p>The code can be found on my Github account under the "MySite" repository.</p>
-	</div>
+		<div id="inline1" style="width:600px;display: none;">
+			<p><em>Purpose:</em> For the BringMe Delivery team</p>
+			<p><em>Overview:</em> This app software was made to track all the orders placed by app users; displaying where/when the order was made, when/where they were delivered, etc. It was supposed to be used to expand the company's delivery "bubble" and see where there can be improvement, but the company went in a different direction.</p>
+			<p>This project was very Javascript heavy, with multiple controllers being used. We also programmed the backend using C#, and even did the SQL DB work - but I had less to do with that.</p>
+			<p>This project uses Angular and Ionic frameworks, as well as package managers and organizers such as Bower, Yeoman, and Gulp.</p>
+			<p>Due to company protocol, I couldn't put the exact project online, but I've recreated the functionalities (without user data) and it can be found on my Github account under the "Admin-App" repository.</p>
+		</div>
 
-	<p class="header"><em>Image App</em></p>
-	<div class="indent">
-		<p>Purpose: To learn/for fun</p>
-		<p>Overview: It was essentially supposed to be an Instagram on a map. You can login and post photos that are attached to a location, or view all photos on a map without logging in.</p>
-		<p>Other than the basic HTML, and JavaScript on the page, I've used Google Maps APIs as well as a FireBase backend to deal with saving users and verifying logins.</p>
-		<p>This project also uses Angular and Ionic frameworks, as well as package managers and organizers such as Bower, Yeoman, and Gulp.</p>
-		<p>Can be found on my Github account under the "MyMap" repository.</p>
+		<a href="#inline2" class="fancybox centered" title="This Website">
+				My Portfolio Website!
+		</a>
+
+		<div id="inline2" style="width:600px;display: none;">
+			<p><em>Purpose:</em> To display my work</p>
+			<p><em>Overview:</em> The is just a simple website intended to allow potential employers to understand what kind of work I've already done.</p>
+			<p>This website was made using only sublime. I made it very simple, all using only HTML and CSS (except for the code to make this pop-up..). It's the first project I've ever done outside of a typical IDE.<br>I feel that a lot of times developers can get lost in all the new technologies (wireframes, libraries, etc) so I made this website using nothing. That being said, GIVE ME BOOTSTRAP BACK.</p>
+			<p>The code can be found on my Github account under the "MySite" repository.</p>
+		</div>
+
+		<a href="#inline3" class="fancybox centered" title="Image App">
+				Image App
+		</a>
+
+		<div id="inline3" style="width:600px;display: none;">
+			<p><em>Purpose:</em> To learn/for fun</p>
+			<p><em>Overview:</em> It was essentially supposed to be an Instagram on a map. You can login and post photos that are attached to a location, or view all photos on a map without logging in.</p>
+			<p>Other than the basic HTML, and JavaScript on the page, I've used Google Maps APIs as well as a FireBase backend to deal with saving users and verifying logins.</p>
+			<p>This project also uses Angular and Ionic frameworks, as well as package managers and organizers such as Bower, Yeoman, and Gulp.</p>
+			<p>Can be found on my Github account under the "MyMap" repository.</p>
+		</div>
 	</div>
 	
 	<!-- designs -->
@@ -79,6 +101,7 @@
 		<img class="moodBoardz" src="designz/TumblrCool.png">
 		<p id="start">Through creating boards like these, I get inspirations for potential "feels" of website pages.</p>
 	</div>
+
 
 </body>
 </html>

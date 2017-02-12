@@ -1,8 +1,14 @@
+html{
+	min-height: 100%;
+}
+
 body {
 	background-image: url("meSitting.JPG");
 	background-size: cover;
+	background-position: center;
 	background-repeat: no-repeat;
 	font-family: 'Raleway', sans-serif;
+	min-height: 100%;
 }
 
 
