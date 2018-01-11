@@ -7,10 +7,9 @@ body {
 	background-image:
 	    radial-gradient(
 	      rgb(245,245,245),
-	      burlywood
+	      rgb(212,174,125)
 	    )
 	;
-	font-family: 'Raleway', sans-serif;
 	min-height: 100%;
 }
 
@@ -31,10 +30,6 @@ body {
 	margin-right: auto;
 	margin-bottom: 4%;
 	margin-top: 1%;
-}
-
-.centered {
-	text-align: center;
 }
 
 .regFont {
@@ -80,15 +75,3 @@ body {
 	color: white;
 	text-decoration: none;
 }
-
-/*div[id="special"] a {
-	border: 1px solid black;
-	background-color: rgba(151,0,24,.4);
-	box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
-	width: 80%;
-	height: 50px;
-	text-align: center;
-	padding-top: 3%;
-	color: white;
-}*/
-

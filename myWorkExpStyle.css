@@ -1,12 +1,39 @@
-body {
-	background-color: rgba(70,130,180,.8);
-	font-family: 'Raleway', sans-serif;
-	color: white;
+html {
+	min-height: 100%;
 }
 
-h2 {
-	margin: 5% 5%;
-	font-weight: lighter;
+body {
+	background-color: #fcefe8;
+	background-image:
+	    radial-gradient(
+	      rgb(215,215,215),
+	      rgb(176,196,222)
+	    )
+	;
+	min-height: 100%;
+}
+
+.firstTop {
+	margin-top: 4%;
+}
+
+.sideBorder {
+	border-right: 1px solid black;
+}
+
+.otherSideBorder {
+	border-left: 1px solid black;
+}
+
+.menuItem {
+	color: rgb(151,0,24);
+	text-decoration: underline;
+}
+
+.menuItem:hover {
+	color: white;
+	box-shadow: 0px 19px 9px -4px rgba(0,0,0,.4);
+	text-decoration: none;
 }
 
 .header {

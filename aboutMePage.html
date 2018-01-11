@@ -4,7 +4,6 @@
 	<title>About Me</title>
 	<meta charset="utf-8" author="Noraen Baryoun">
 	<link rel="stylesheet" type="text/css" href="aboutMePageStyle.css">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
@@ -19,46 +18,65 @@
 	<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 	<link rel="manifest" href="manifest.json">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-grid.min.css">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
-	<!-- Little navigation menu to all the other pages -->
-	<div class="menu">
-		<a href="projectsDesigns.html">Projects & Designs</a>
-		<a href="myWorkExperience.html">My Work Experience</a>
-		<a href="index.html">Home Page</a>
+	<div class="container">
+		<div class="row firstTop">
+			<div class="col-md-6">
+				<h2><em>Baryoun, Noraen</em></h2>
+			</div>
+			<!-- Little navigation menu to all the other pages -->
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-4 text-center sideBorder otherSideBorder">
+						<a href="index.html" class="menuItem">Home Page</a>
+					</div>
+					<div class="col-md-4 text-center sideBorder">
+						<a href="myWorkExperience.html" class="menuItem">My Work Experience</a>
+					</div>
+					<div class="col-md-4 text-center sideBorder">
+						<a href="projectsDesigns.html" class="menuItem">Projects & Designs</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-8">
+				<!-- Information -->
+				<p class="header"><em>Education:</em></p>
+				<div class="indent">
+					<p>American University, Washington, D.C. </p>
+					<p>Major in Computer Science, College of Arts and Sciences</p>
+					<p>Expected Graduation - May 2018</p>
+					<p>Secretary of American University's ACM Chapter</p>
+					<hr>
+					<p>Concentration in User Experience Design: <br>
+					American University offers a few choices for a concerntration, but none that really excited me. For that reason, I decided to created\ my own concentration in UX Design. What better than a developer who understands design too!</p>
+				</div>
+
+				<!-- More Info -->
+				<p class="header">Contact Information:</p>
+				<div class="indent">
+					Name: My full name is <span class="colorChange">Noraen Baryoun</span>, but I typically go by <span class="colorChange">Nora</span>.
+					<p>Email: n.baryoun@gmail.com <br>
+					Cell Number: (240) 535-3542</p>
+					<p>GitHub: <a class="colorChange" href="https://github.com/nbaryoun">nbaryoun</a></p>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<!-- Picture -->
+				<img id="picOfMe" src="mephotos/me.png">
+			</div>
+		</div>
 	</div>
-
-	<h2><em>Baryoun, Noraen</em></h2>
-
-	<!-- Information -->
-	<p class="header"><em>Education:</em></p>
-	<div class="indent">
-		<p>American University, Washington, D.C. </p>
-		<p>Major in Computer Science, College of Arts and Sciences</p>
-		<p>Expected Graduation - May 2018</p>
-		<p>GPA: 3.18</p>
-		<p>Concentration in User Experience Design <br>
-		**American University offers a few choices for a concerntration, but none that really interested me. Instead, I created my own concentration in UX Design. Front-End Development has always been where my passion lied, so I thought what better than a developer who understands design too!**</p>
-		<p>Member of American University's ACM Chapter</p>
-	</div>
-
-	<!-- More Info -->
-	<p class="header">Contact Information:</p>
-	<div class="indent">
-		<p>Name: My full name is Noraen Baryoun, but I typically go by Nora.</p>
-		<p>Email: n.baryoun@gmail.com</p>
-		<p>Cell Number: (240) 535-3542</p>
-		<p>GitHub: <a id="link" href="https://github.com/nbaryoun">nbaryoun</a></p>
-	</div>
-
-	<!-- Pictures -->
-	<img id="numba1" src="mephotos/meinItaly.JPG">
-	<img id="numba2" src="mephotos/familyphoto.JPG">
-	<img id="numba3" src="mephotos/meTurkey.JPG">
 
 </body>
 </html>
