@@ -4,7 +4,6 @@
 	<title>NXB</title>
 	<meta author="Noraen Baryoun" purpose="personal website">
 	<link rel="stylesheet" type="text/css" href="indexStyle.css">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
@@ -19,29 +18,45 @@
 	<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 	<link rel="manifest" href="manifest.json">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-grid.min.css">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
-	<!-- Logo -->
-	<div>
-		<img src="logoinblack.png" id="logo">
-	</div>
+	<!-- HEADER STUFF -->
+	<div class="welcomeTag">
+		<!-- Logo -->
+		<div>
+			<img src="logoinblack.png" id="logo">
+		</div>
 
-	<!-- Welcome Message -->
-	<div class="centered regFont">Welcome to Noraen Baryoun's Porfolio! Chose what you would like to see.</div>
+		<!-- Welcome Message -->
+		<div class="centered regFont">Digital home of a 21 year old front end developer & web designer from Washington D.C. : <strong>Nora Baryoun.</strong></div>
+	</div>
 
 	<!-- Buttons -->
-	<div class="centered">
-		<a class="anim" href="aboutMePage.html">About Me!</a>
-		<a class="anim" href="myWorkExperience.html">My Work Experience</a>
-		<a class="anim" href="projectsDesigns.html">Projects & Designs</a>
-	</div>
+	<div class="container">
+		<div class="row choices">
+			<div class="col-md-4 centered">
+				<a class="anim linkStyle" href="aboutMePage.html">About Me!</a>
+			</div>
+			<div class="col-md-4 centered">
+				<a class="anim linkStyle" href="myWorkExperience.html">My Work Experience</a>
+			</div>
+			<div class="col-md-4 centered">
+				<a class="anim linkStyle" href="projectsDesigns.html">Projects & Designs</a>
+			</div>
+		</div>
 
-	<div id="special">
-		<a href="forFunPage.html">just for fun..</a>
+		<div class="row" id="special">
+			<div class="col-md-12 centered">
+				<a class="specialLinkStyle" href="forFunPage.html">My Free Time..</a>
+			</div>
+		</div>
 	</div>
 
 </body>

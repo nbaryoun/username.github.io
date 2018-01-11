@@ -3,21 +3,34 @@ html{
 }
 
 body {
-	background-image: url("meSitting.JPG");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+	background-color: #fcefe8;
+	background-image:
+	    radial-gradient(
+	      rgb(245,245,245),
+	      burlywood
+	    )
+	;
 	font-family: 'Raleway', sans-serif;
 	min-height: 100%;
 }
 
+/*rgb(210,210,210)*/
+
+.welcomeTag {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3%;
+	margin-top: 3%;
+	border: 3px solid darkslategrey;
+}
 
 #logo {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 3%;
-	margin-top: 2%;
+	margin-bottom: 4%;
+	margin-top: 1%;
 }
 
 .centered {
@@ -27,33 +40,48 @@ body {
 .regFont {
 	font-size: 20px;
 	font-weight: lighter;
+	font-style: italic;
 }
 
-div[class="centered"] a {
-	float: center;
-	display: inline-block;
-	height: 100px;
-	border: 1px solid black;
-	padding: 50px;
-	margin: 3% 2%;
-	background-color: rgba(151,0,24,.2);
-	box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
-	color: white;
-	font-weight: lighter;
+.choices {
+	margin-top: 9%;
+	color: black;
+}
+
+.linkStyle {
+	color: black;
+	box-shadow: 0px 19px 9px -4px rgba(0,0,0,.4);
+	border-radius: 10px;
 	-webkit-transition: width 1s, height 1s, background-color 1s, -webkit-transform 1s;
     transition: width 1s, height 1s, background-color 1s, transform 1s;
 }
 
-div a:hover {
-	background-color: rgba(151,0,24,.9);
+.choices div a:hover {
+	box-shadow: 0px 19px 9px -4px rgba(151,0,24,.7);
 	-webkit-transform: rotate(360deg);
     transform: rotate(360deg);
+    color: black;
+    text-decoration: none;
 }
 
-div[id="special"] a {
-	float: center;
-	display: block;
-	margin: auto;
+.specialLinkStyle {
+	color: black;
+	padding: 1% 35%;
+	background-color: rgba(151,0,24,.4);
+	border-radius: 10px;
+}
+
+#special {
+	margin-top: 6%;
+}
+
+.specialLinkStyle:hover {
+	background-color: rgba(151,0,24,.9);
+	color: white;
+	text-decoration: none;
+}
+
+/*div[id="special"] a {
 	border: 1px solid black;
 	background-color: rgba(151,0,24,.4);
 	box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
@@ -62,9 +90,5 @@ div[id="special"] a {
 	text-align: center;
 	padding-top: 3%;
 	color: white;
-}
-
-div[id="special"] a:hover {
-	background-color: rgba(151,0,24,.9);
-}
+}*/
 
