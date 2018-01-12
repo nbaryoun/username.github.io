@@ -37,36 +37,15 @@ body {
 }
 
 .header {
-	margin-left: 5%;
+	margin-left: 3%;
+	margin-top: 2%;
 	font-weight: bold;
 }
 
+.colorChange {
+	color: rgba(151,0,24,.9);
+}
+
 .indent {
-	margin-left: 7%;
-	width: 90%;
+	margin-left: 6%;
 }
-
-a {
-	color: rgb(151,0,24);
-}
-
-div[class="menu"] a {
-	border: 1px solid white;
-	background-color: rgba(151,0,24,.4);
-	padding: 5px;
-	color: black;
-	float: right;
-	margin-right: 3%;
-	box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-div[class="menu"] a:hover {
-	background-color: rgba(151,0,24,.9);
-}
-
-#space {
-	padding-bottom: 30px; 
-}
-
-
-
