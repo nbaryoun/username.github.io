@@ -4,7 +4,6 @@
 	<title>Projects & Designs</title>
 	<meta charset="utf-8" author="Noraen Baryoun">
 	<link rel="stylesheet" type="text/css" href="projectsDesignsStyle.css">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
@@ -19,9 +18,12 @@
 	<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 	<link rel="manifest" href="manifest.json">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-grid.min.css">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- fancybox -->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
@@ -35,73 +37,129 @@
 	</script>
 </head>
 <body>
-
-	<!-- lil menu -->
-	<div class="menu">
-		<a href="myWorkExperience.html">My Work Experience</a>
-		<a href="aboutMePage.html">About Me</a>
-		<a href="index.html">Home Page</a>
-	</div>
-
-	<!-- projects on github -->
-	<h2><em>Programmed Projects</em></h2>
-
-	<div id="sup">
-		<a href="#inline1" class="fancybox centered" title="Administrative App">
-				Admin App
-		</a>
-
-		<div id="inline1" style="width:600px;display: none;">
-			<p><em>Purpose:</em> For the BringMe Delivery team</p>
-			<p><em>Overview:</em> This app software was made to track all the orders placed by app users; displaying where/when the order was made, when/where they were delivered, etc. It was supposed to be used to expand the company's delivery "bubble" and see where there can be improvement, but the company went in a different direction.</p>
-			<p>This project was very Javascript heavy, with multiple controllers being used. We also programmed the backend using C#, and even did the SQL DB work - but I had less to do with that.</p>
-			<p>This project uses Angular and Ionic frameworks, as well as package managers and organizers such as Bower, Yeoman, and Gulp.</p>
-			<p>Due to company protocol, I couldn't put the exact project online, but I've recreated the functionalities (without user data) and it can be found on my Github account under the "Admin-App" repository.</p>
+	<div class="container">
+		<div class="row firstTop">
+			<div class="col-md-6">
+				<h2><em>Programmed Projects</em></h2>
+			</div>
+			<!-- navigation menu -->
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-4 text-center sideBorder otherSideBorder">
+						<a href="index.html" class="menuItem">Home Page</a>
+					</div>
+					<div class="col-md-4 text-center sideBorder">
+						<a href="aboutMePage.html" class="menuItem">About Me</a>
+					</div>
+					<div class="col-md-4 text-center sideBorder">
+						<a href="myWorkExperience.html" class="menuItem">My Work Experience</a>
+					</div>
+				</div>
+			</div>
 		</div>
 
-		<a href="#inline2" class="fancybox centered" title="This Website">
-				My Portfolio Website!
-		</a>
+		<div class="sup row text-center">
+			<div class="col-md-4">
+				<!-- BringMe App -->
+				<a href="#inline1" class="fancybox centered" title="Administrative App">
+						Admin App
+				</a>
+				<div id="inline1" style="width:600px;display: none;">
+					<p><em>Purpose:</em> For the BringMe Delivery team</p>
+					<p><em>Overview:</em> This app software was made to track all the orders placed by app users; displaying where/when the order was made, when/where they were delivered, etc. It was supposed to be used to expand the company's delivery "bubble" and see where there can be improvement, but the company went in a different direction.</p>
+					<p>This project was very Javascript heavy, with multiple controllers being used. We also programmed the backend using C#, and even did the SQL DB work - but I had less to do with that.</p>
+					<p>This project uses Angular and Ionic frameworks, as well as package managers and organizers such as Bower, Yeoman, and Gulp.</p>
+					<p>Due to company protocol, I couldn't put the exact project online, but I've recreated the functionalities (without user data) and it can be found on my Github account under the "Admin-App" repository.</p>
+				</div>
+			</div>
 
-		<div id="inline2" style="width:600px;display: none;">
-			<p><em>Purpose:</em> To display my work</p>
-			<p><em>Overview:</em> The is just a simple website intended to allow potential employers to understand what kind of work I've already done.</p>
-			<p>This website was made using only sublime. I made it very simple, all using only HTML and CSS (except for the code to make this pop-up..). It's the first project I've ever done outside of a typical IDE.<br>I feel that a lot of times developers can get lost in all the new technologies (wireframes, libraries, etc) so I made this website using nothing. That being said, GIVE ME BOOTSTRAP BACK.</p>
-			<p>The code can be found on my Github account under the "MySite" repository.</p>
+			<div class="col-md-4">
+				<!-- Portfolio Website -->
+				<a href="#inline2" class="fancybox centered" title="This Website">
+						My Portfolio Website!
+				</a>
+				<div id="inline2" style="width:600px;display: none;">
+					<p><em>Purpose:</em> To display my work</p>
+					<p><em>Overview:</em> The is just a simple website intended to allow potential employers to understand what kind of work I've already done.</p>
+					<p>This website was made using only sublime. I made it very simple, all using only HTML and CSS (except for the code to make this pop-up..). It's the first project I've ever done outside of a typical IDE.<br>I feel that a lot of times developers can get lost in all the new technologies (wireframes, libraries, etc) so I made this website using nothing. That being said, GIVE ME BOOTSTRAP BACK.</p>
+					<p>The code can be found on my Github account under the "MySite" repository.</p>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<!-- Image App -->
+				<a href="#inline3" class="fancybox centered" title="Image App">
+						Image App
+				</a>
+				<div id="inline3" style="width:600px;display: none;">
+					<p><em>Purpose:</em> To learn/for fun</p>
+					<p><em>Overview:</em> It was essentially supposed to be an Instagram on a map. You can login and post photos that are attached to a location, or view all photos on a map without logging in.</p>
+					<p>Other than the basic HTML, and JavaScript on the page, I've used Google Maps APIs as well as a FireBase backend to deal with saving users and verifying logins.</p>
+					<p>This project also uses Angular and Ionic frameworks, as well as package managers and organizers such as Bower, Yeoman, and Gulp.</p>
+					<p>Can be found on my Github account under the "MyMap" repository.</p>
+				</div>
+			</div>
+		</div>
+		<div class="sup row text-center">
+			<div class="col-md-6">
+				<!-- Mohamed Hussein Website -->
+				<a href="#inline4" class="fancybox centered" title="M.H. Personal Site">
+						Wordpress Portfolio Site
+				</a>
+				<div id="inline4" style="width:600px;display: none;">
+					<p><em>Purpose:</em> For a client to be able to sell their products.</p>
+					<p><em>Overview:</em> A fellow classmate was helping a family member over sea create a site to allow them to sell their product. They sought out my help with general Wordpress knowledge, and then employeed me to help specifically with the front end of the project, resulting in my co-CTO & CDO of the company's tech.</p>
+					<p>It was made using Wordpress. We ran the files on a local server and were altering the theme specifics. The client had a very detailed idea of what they wanted the website to look like, and how everything on the page should be organized. Aside from my existing HTML/CSS/JavaScript skills, I had to learn how to work with plugins like image carousels and shopping carts. It was a great learning experience.</p>
+					<p>The website is live! It can be found <a href="https://simple-things.co/" target="_blank">here</a>.</p>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<!-- Mohamed Hussein Website -->
+				<a href="#inline5" class="fancybox centered" title="Simple Things Online Store">
+						Wordpress E-Commerce Site
+				</a>
+				<div id="inline5" style="width:600px;display: none;">
+					<p><em>Purpose:</em> For a client to be able to display his work.</p>
+					<p><em>Overview:</em> This was a site developed for a client to include his blog, bio, calendar, and contact info all in one place.</p>
+					<p>It was made using Wordpress. Using additional CSS, I was able to customize the theme he had chose to be able to do what he intended.</p>
+					<p>Some addition plugins I used for this site (aside from the CSS customizations) are: <br>Google Calendar <br>MailChimp email subscriptions <br>PayPal purchase button</p>
+					<p>The website is live! It can be found <a href="https://mohamedhussein.org/" target="_blank">here</a>.</p>
+				</div>
+			</div>
+		</div>
+		
+		<!-- designs -->
+		<h2><em>Designs</em></h2>
+
+		<p class="header"><em>Client Site</em></p>
+		<div class="indent">
+			<p>Purpose: This is a friend's website for their photography. I didn't have anything to do with the code (I believe he used squarespace) but designed what it should look like in order to accurately refelct his work and personality.</p>
+			<img id="mlrb" src="designz/MLRBsc.png">
+			<p>It was meant to be clean & simple to allow the vibrant colors of his own photography take the attention of the user.</p>
+			<p>His contact information is available upon request.</p>
 		</div>
 
-		<a href="#inline3" class="fancybox centered" title="Image App">
-				Image App
-		</a>
+		<p class="header"><em>Mood Boards</em></p>
+		<div class="indent">
+			<p>Purpose: These are my own creations (powered by Tumblr) that I like to put together based on color schemes and just overall moods.</p>
+			<img class="moodBoardz" src="designz/TumblrChalky.png">
+			<img class="moodBoardz" src="designz/TumblrCool.png">
+			<p id="start">Through creating boards like these, I get inspirations for potential "feels" of website pages.</p>
+		</div>
 
-		<div id="inline3" style="width:600px;display: none;">
-			<p><em>Purpose:</em> To learn/for fun</p>
-			<p><em>Overview:</em> It was essentially supposed to be an Instagram on a map. You can login and post photos that are attached to a location, or view all photos on a map without logging in.</p>
-			<p>Other than the basic HTML, and JavaScript on the page, I've used Google Maps APIs as well as a FireBase backend to deal with saving users and verifying logins.</p>
-			<p>This project also uses Angular and Ionic frameworks, as well as package managers and organizers such as Bower, Yeoman, and Gulp.</p>
-			<p>Can be found on my Github account under the "MyMap" repository.</p>
+		<p class="header"><em>Logos</em></p>
+		<div class="indent">
+			<p>Purpose: The first one is my own logo I created for personal branding. The second is one I worked on the a client. I was given a work ("Link") and a picture of the "vibe" the client was going for. There was little passing back and forth before it was complete!</p>
+			<div class="row">
+				<div class="col-sm-6 text-center">
+					<img class="logos" src="logoinblack.png">
+				</div>
+				<div class="col-sm-6 text-center">
+					<img class="logos" src="designz/LinkLogoWithoutBackground.png">
+				</div>
+			</div>
+			<p id="lastOne">Through creating boards like these, I get inspirations for potential "feels" of website pages.</p>
 		</div>
 	</div>
-	
-	<!-- designs -->
-	<h2><em>Designs</em></h2>
-
-	<p class="header"><em>Client Site</em></p>
-	<div class="indent">
-		<p>Purpose: This is a friend's website for their photography. I didn't have anything to do with the code (I believe he used squarespace) but designed what it should look like in order to accurately refelct his work and personality.</p>
-		<img id="mlrb" src="designz/MLRBsc.png">
-		<p>It was meant to be clean & simple to allow the vibrant colors of his own photography take the attention of the user.</p>
-		<p>His contact information is available upon request.</p>
-	</div>
-
-	<p class="header"><em>Mood Boards</em></p>
-	<div class="indent">
-		<p>Purpose: These are my own creations (powered by Tumblr) that I like to put together based on color schemes and just overall moods.</p>
-		<img class="moodBoardz" src="designz/TumblrChalky.png">
-		<img class="moodBoardz" src="designz/TumblrCool.png">
-		<p id="start">Through creating boards like these, I get inspirations for potential "feels" of website pages.</p>
-	</div>
-
-
 </body>
 </html>
