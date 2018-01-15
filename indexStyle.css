@@ -5,10 +5,14 @@ html{
 body {
 	background-color: #fcefe8;
 	background-image:
-	    radial-gradient(
+		radial-gradient(
+	      rgb(215,215,215),
+	      rgb(166,186,212)
+	    )
+	    /*radial-gradient(
 	      rgb(245,245,245),
 	      rgb(212,174,125)
-	    )
+	    )*/
 	;
 	min-height: 100%;
 }

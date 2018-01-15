@@ -80,26 +80,6 @@ body {
 	color: rgba(151,0,24,.9);
 }
 
-#numba1 {
-	width: 25%;
-	position: absolute;
-	top: 20%;
-	right: 5%;
-	box-shadow: 3px 3px 2px 1px rgba(151,0,24,.9);
-}
-
-#numba2 {
-	width: 25%;
-	position: absolute;
-	top: 45%;
-	right: 3%;
-	box-shadow: 3px 3px 2px 1px rgba(151,0,24,.9);
-}
-
-#numba3 {
-	width: 25%;
-	position: absolute;
-	top: 70%;
-	right: 7%;
-	box-shadow: 3px 3px 2px 1px rgba(151,0,24,.9);
+.underlineLink {
+	text-decoration: underline;
 }
